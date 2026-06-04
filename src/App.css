@@ -11,3 +11,19 @@
 .animate-fade-in-up {
   animation: fadeInUp 0.3s ease-out forwards;
 }
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  font-size: 0 !important;
+}
