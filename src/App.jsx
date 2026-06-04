@@ -22,7 +22,6 @@ function App() {
 }, []);
   return (
     <Router>
-      <div id="google_translate_element"></div>
       <Routes>    
         <Route path="/" element={<Navigate to="/login" replace />} />   
         <Route path='/login' element={<Login/>}/>
